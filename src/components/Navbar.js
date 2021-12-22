@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <nav class="bg-white shadow ">
-      <div class="max-w-8xl mx-auto px-8 py-4">
+      <div class="max-w-8xl mx-auto px-8 py-2">
         <div class="flex items-center justify-between h-16">
           <div class="w-full justify-between flex items-center">
             <h1 class="flex-shrink-0 text-xl">
@@ -25,19 +25,19 @@ export default function Navbar() {
               <div class="ml-10 flex items-baseline space-x-4">
                 <Link
                   to="/"
-                  class="text-gray-400 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium text-xl"
+                  class="text-gray-400 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium text-lg"
                 >
                   Home
                 </Link>
                 <Link
                   to="/about"
-                  class="text-gray-400 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium text-xl"
+                  class="text-gray-400 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium text-lg"
                 >
                   About
                 </Link>
                 <Link
                   to="/projects"
-                  class="text-gray-400 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium text-xl"
+                  class="text-gray-400 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium text-lg"
                 >
                   Content
                 </Link>
