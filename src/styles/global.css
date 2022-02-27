@@ -24,6 +24,7 @@ p {
 .details h2 {
   font-size: 3.5em;
   padding-top: 80px;
+  padding-bottom: 20px;
 }
 .details h3 {
   font-size: 2em;
@@ -56,4 +57,16 @@ p {
 
 .details tr:hover {
   background-color: #ddd;
+}
+
+.contact h2 {
+  font-size: 2em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.contact h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }

@@ -9,7 +9,7 @@ const ProjectDetails = ({ data }) => {
 
   return (
     <Layout>
-      <div className="details max-w-screen px-4 mx-auto md:px-8 py-5">
+      <div className="details max-w-screen px-4 mx-auto md:px-8 pb-10">
         <h2 className="my-3 px-20 md:px-28 mx-auto uppercase text-6xl sm:text-6xl text-center font-black flex flex-col leading-none text-gray-800">
           {title}
         </h2>
@@ -18,8 +18,10 @@ const ProjectDetails = ({ data }) => {
           fluid={featuredImg.childImageSharp.fluid}
         />
       </div>
-      <div className="details max-w-screen px-20 mx-auto md:px-28 py-5 bg-white">
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+      <div className="bg-white">
+        <div className="details px-20 mx-auto md:px-28 pt-10 pb-10 max-w-screen-xl">
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+        </div>
       </div>
     </Layout>
   )

@@ -41,7 +41,7 @@ module.exports = {
   siteMetadata: {
     title: "Pure Spice Indo",
     description: "Spice supplier from Indonesia",
-    copyright: "This website is copyright 2021 Indo Mushroom",
+    copyright: "© 2022 Pure Spice Indo. All Rights Reserved",
     contact: "info@purespiceindo.com",
   },
 }

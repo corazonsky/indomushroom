@@ -1,5 +1,7 @@
 import React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 export default function Footer() {
   const data = useStaticQuery(graphql`
@@ -15,47 +17,17 @@ export default function Footer() {
 
   return (
     <footer class="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
-      <span class="text-base text-gray-500 sm:text-center dark:text-gray-400">
-        © 2022{" "}
-        <a href="https://flowbite.com" class="hover:underline" target="_blank">
-          Flowbite™
-        </a>
-        . All Rights Reserved.
-      </span>
-      <ul class="flex flex-wrap items-center mt-3 sm:mt-0">
-        <li>
-          <a
-            href="#"
-            class="mr-4 text-base text-gray-500 hover:underline md:mr-6 dark:text-gray-400"
-          >
-            About
-          </a>
-        </li>
-        <li>
-          <a
-            href="#"
-            class="mr-4 text-base text-gray-500 hover:underline md:mr-6 dark:text-gray-400"
-          >
-            Privacy Policy
-          </a>
-        </li>
-        <li>
-          <a
-            href="#"
-            class="mr-4 text-base text-gray-500 hover:underline md:mr-6 dark:text-gray-400"
-          >
-            Licensing
-          </a>
-        </li>
-        <li>
-          <a
-            href="#"
-            class="text-base text-gray-500 hover:underline dark:text-gray-400"
-          >
-            Contact
-          </a>
-        </li>
-      </ul>
+      <div class="container flex flex-wrap justify-between items-center mx-auto">
+        <span class="text-base text-gray-500 sm:text-center dark:text-gray-400">
+          {copyright}
+        </span>
+        <span class="text-base text-gray-500 sm:text-center dark:text-gray-400">
+          <FontAwesomeIcon icon={faEnvelope} />
+          <b class="ml-2 mx-auto">
+            Send your inquriy to info@purespiceindo.com
+          </b>
+        </span>
+      </div>
     </footer>
   )
 }

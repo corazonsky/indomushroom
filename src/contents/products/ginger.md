@@ -11,7 +11,12 @@ featuredImg: ../../images/products/jahe.png
 
 ---
 
-Our Ginger Product consist of three type of gingers which includes, white ginger, yellow ginger, and red ginger.Ginger it self are rhizomes which is often consumed by the general population because of the taste and aroma enhancing effect for food and also for medicinal purposes, ginger is included in many tradtional medicine recipe. Our ginger is sourced only from the best ginger plantation in Java, which ensure freshness and health benefits that comes along with it
+Our Ginger Product consist of three type of gingers which includes, white ginger, yellow ginger, and red ginger.Ginger it self are rhizomes which is often consumed by the general population because of the taste and aroma enhancing effect for food and also for medicinal purposes, ginger is included in many tradtional medicine recipe.
+\
+&nbsp;
+\
+&nbsp;
+Our ginger is sourced only from the best ginger plantation in Java, which ensure freshness and health benefits that comes along with it
 \
 &nbsp;
 \
