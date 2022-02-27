@@ -3,7 +3,7 @@ import Img from "gatsby-image"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 
-const ProjectDetails = ({ data }) => {
+const ProductDetails = ({ data }) => {
   const { html } = data.markdownRemark
   const { title, stack, featuredImg } = data.markdownRemark.frontmatter
 
@@ -27,10 +27,10 @@ const ProjectDetails = ({ data }) => {
   )
 }
 
-export default ProjectDetails
+export default ProductDetails
 
 export const query = graphql`
-  query ProjectDetails($slug: String) {
+  query ProductDetails($slug: String) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {

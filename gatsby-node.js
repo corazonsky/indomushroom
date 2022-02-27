@@ -3,7 +3,9 @@ const path = require(`path`)
 exports.createPages = async ({ graphql, actions }) => {
   const { data } = await graphql(`
     query Articles {
-      allMarkdownRemark {
+      allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/(products)/" } }
+      ) {
         nodes {
           frontmatter {
             slug
@@ -16,7 +18,7 @@ exports.createPages = async ({ graphql, actions }) => {
   data.allMarkdownRemark.nodes.forEach(node => {
     actions.createPage({
       path: "/products/" + node.frontmatter.slug,
-      component: path.resolve("./src/templates/project-details.js"),
+      component: path.resolve("./src/templates/product-details.js"),
       context: { slug: node.frontmatter.slug },
     })
   })
