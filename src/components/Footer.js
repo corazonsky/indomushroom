@@ -16,12 +16,12 @@ export default function Footer() {
   const { copyright } = data.site.siteMetadata
 
   return (
-    <footer class="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+    <footer class="p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 fixed bottom-0 inset-x-0 z-50">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
-        <span class="text-base text-gray-500 sm:text-center dark:text-gray-400">
+        <span class="text-xs text-gray-500 sm:text-center md:text-base">
           {copyright}
         </span>
-        <span class="text-base text-gray-500 sm:text-center dark:text-gray-400">
+        <span class="text-xs text-gray-500 sm:text-center md:text-base">
           <FontAwesomeIcon icon={faEnvelope} />
           <b class="ml-2 mx-auto">
             Send your inquriy to info@purespiceindo.com

@@ -16,7 +16,7 @@ export default function Home({ data }) {
     <Layout>
       <div
         id="header"
-        class="container mx-auto px-6 flex relative py-16 max-w-screen-xl"
+        class="container mx-auto px-6 flex relative py-16 md:max-w-screen-xl"
       >
         <div class="sm:w-2/3 lg:w-3/5 flex flex-col relative z-20">
           <p class="my-3 text-sm sm:text-xl text-gray-700">
@@ -36,7 +36,7 @@ export default function Home({ data }) {
           <Img fluid={logo.childImageSharp.fluid} class="m-auto" />
         </div>
       </div>
-      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-14 max-w-screen-xl px-4 mx-auto md:px-8 py-10">
+      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-14 md:max-w-screen-xl px-4 mx-auto md:px-8 py-10">
         {products.map(product => (
           <Link to={"/products/" + product.frontmatter.slug} key={product.id}>
             <ProductCard
@@ -52,7 +52,7 @@ export default function Home({ data }) {
         ))}
       </div>
       <div id="about" class=" px-4 mx-auto md:px-8 bg-white py-2">
-        <div class="mb-10 md:mb-16 max-w-screen-xl container justify-between items-center mx-auto">
+        <div class="mb-10 md:mb-16 md:max-w-screen-xl container justify-between items-center mx-auto">
           <div
             class="relative flex py-5 items-center mt-20
           mb-2 md:mb-3"

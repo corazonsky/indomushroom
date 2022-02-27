@@ -15,26 +15,26 @@ const Contact = ({ data }) => {
 
   return (
     <Layout>
-      <div className="details max-w-screen px-4 mx-auto md:px-8 pb-10">
-        <h2 className="my-3 px-20 md:px-28 mx-auto uppercase text-6xl sm:text-6xl text-center font-black flex flex-col leading-none text-gray-800">
+      <div className="details md:max-w-screen-xl px-4 mx-auto md:px-8 py-10">
+        <h2 className="my-3 mx-auto uppercase text-4xl md:text-6xl text-center font-black text-gray-800">
           Contact Us
         </h2>
       </div>
       <div className="contact mx-auto bg-white">
-        <div class="container rounded-md justify-between items-center mx-auto max-w-screen px-28 py-28">
-          <h2 className="font-bold">Pure Spice Indo</h2>
-          <h2>{name}</h2>
+        <div class="container rounded-md justify-between items-center mx-auto md:max-w-screen-xl px-28 py-28">
+          <h2 className="font-bold text-lg sm:text-2xl">Pure Spice Indo</h2>
+          <h2 className="text-lg sm:text-2xl">{name}</h2>
           <div className="flex justify-start align-middle">
-            <FontAwesomeIcon icon={faHome} className="mt-3 w-4 h-4" />
-            <h3 className="ml-2">{address}</h3>
+            <FontAwesomeIcon icon={faHome} className="mt-1 w-4 h-4" />
+            <p className="ml-2 text-xs sm:text-base">{address}</p>
           </div>
           <div className="flex justify-start align-middle">
-            <FontAwesomeIcon icon={faEnvelope} className="mt-3 w-4 h-4" />
-            <h3 className="ml-2">{email}</h3>
+            <FontAwesomeIcon icon={faEnvelope} className="mt-1 w-4 h-4" />
+            <p className="ml-2 text-xs sm:text-base">{email}</p>
           </div>
           <div className="flex justify-start align-middle">
-            <FontAwesomeIcon icon={faPhone} className="mt-3 w-4 h-4" />
-            <h3 className="ml-2">{phone}</h3>
+            <FontAwesomeIcon icon={faPhone} className="mt-1 w-4 h-4" />
+            <p className="ml-2 text-xs sm:text-base">{phone}</p>
           </div>
         </div>
       </div>

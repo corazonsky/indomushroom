@@ -9,8 +9,8 @@ const ProductDetails = ({ data }) => {
 
   return (
     <Layout>
-      <div className="details max-w-screen px-4 mx-auto md:px-8 pb-10">
-        <h2 className="my-3 px-20 md:px-28 mx-auto uppercase text-6xl sm:text-6xl text-center font-black flex flex-col leading-none text-gray-800">
+      <div className="details md:max-w-screen-xl px-4 mx-auto md:px-8 py-10">
+        <h2 className="my-3 mx-auto uppercase text-4xl md:text-6xl text-center font-black text-gray-800">
           {title}
         </h2>
         <Img
@@ -19,7 +19,7 @@ const ProductDetails = ({ data }) => {
         />
       </div>
       <div className="bg-white">
-        <div className="details px-20 mx-auto md:px-28 pt-10 pb-10 max-w-screen-xl">
+        <div className="details px-20 mx-auto md:px-28 pt-10 pb-10 md:max-w-screen-xl">
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>
       </div>
