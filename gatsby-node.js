@@ -13,8 +13,7 @@ exports.createPages = async ({ graphql, actions }) => {
         }
       }
     }
-  }
-  
+  `)
 
   data.allMarkdownRemark.nodes.forEach(node => {
     actions.createPage({
