@@ -7,10 +7,10 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    'gatsby-plugin-postcss',
+    "gatsby-plugin-postcss",
     `gatsby-transformer-remark`,
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -25,11 +25,23 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Pure Spice Indo",
+        short_name: "PureSpiceIndo",
+        start_url: "/",
+        background_color: "#f7f0eb",
+        theme_color: "#a2466c",
+        display: "standalone",
+        icon: "src/images/logo.png",
+      },
+    },
   ],
   siteMetadata: {
-    title: 'Indo Mushroom',
-    description: 'Mushroom supplier from Indonesia',
-    copyright: 'This website is copyright 2021 Indo Mushroom',
-    contact: 'indomushroom001@gmail.com',
+    title: "Pure Spice Indo",
+    description: "Spice supplier from Indonesia",
+    copyright: "This website is copyright 2021 Indo Mushroom",
+    contact: "info@purespiceindo.com",
   },
 }

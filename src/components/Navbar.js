@@ -1,4 +1,5 @@
 import React from "react"
+import Img from "gatsby-image"
 import { graphql, Link, useStaticQuery } from "gatsby"
 
 export default function Navbar() {
@@ -9,63 +10,61 @@ export default function Navbar() {
           title
         }
       }
+      logo: file(relativePath: { eq: "logo.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
   const { title } = data.site.siteMetadata
+  const { logo } = data.logo.childImageSharp.fluid
 
   return (
-    <nav class="bg-white shadow ">
-      <div class="max-w-8xl mx-auto px-8 py-2">
-        <div class="flex items-center justify-between h-16">
-          <div class="w-full justify-between flex items-center">
-            <h1 class="flex-shrink-0 text-xl">
-              <b>{title}</b>
-            </h1>
-            <div class="hidden md:block">
-              <div class="ml-10 flex items-baseline space-x-4">
-                <Link
-                  to="/"
-                  class="text-gray-400 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium text-lg"
-                >
-                  Home
-                </Link>
-                <Link
-                  to="/about"
-                  class="text-gray-400 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium text-lg"
-                >
-                  About
-                </Link>
-                <Link
-                  to="/projects"
-                  class="text-gray-400 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium text-lg"
-                >
-                  Content
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="md:hidden">
-        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <Link
-            to="/"
-            class="text-gray-300 hover:text-gray-800 block px-3 py-2 rounded-md text-base font-medium"
-          >
-            Home
-          </Link>
-          <Link
-            to="/about"
-            class="text-gray-300 hover:text-gray-800 block px-3 py-2 rounded-md text-base font-medium"
-          >
-            About
-          </Link>
-          <Link
-            to="/projects"
-            class="text-gray-300 hover:text-gray-800 block px-3 py-2 rounded-md text-base font-medium"
-          >
-            Content
-          </Link>
+    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-4 rounded dark:bg-gray-800">
+      <div class="container flex flex-wrap justify-between items-center mx-auto">
+        <a href="#" class="flex">
+          <span class="self-center text-lg font-semibold whitespace-nowrap uppercase">
+            {title}
+          </span>
+        </a>
+        <div class="w-full block w-auto">
+          <ul class="flex flex-row space-x-8 mt-0 text-base font-medium">
+            <li>
+              <Link
+                to="/"
+                class="py-2 pr-3 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/about"
+                class="py-2 pr-3 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/projects"
+                class="py-2 pr-3 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Products
+              </Link>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
