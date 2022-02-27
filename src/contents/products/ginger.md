@@ -4,11 +4,27 @@ stack: Java Indonesia
 slug: ginger
 date: 2021-01-05T00:00:00+00:00
 thumb: ../../images/products/jahe.png
-featuredImg: ../../images/featured/food-banner.png
+featuredImg: ../../images/products/jahe.png
 ---
 
-Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut ninja wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ninja lobortis nisl ut aliquip ex ea commodo consequat. Duis ninja autem vel eum iriure dolor in hendrerit in vulputate ninja velit esse molestie consequat, vel illum dolore eu feugiat nulla ninja facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam ninja ipsum liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi ninja non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes ninja demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas ninja est etiam processus dynamicus, qui ninja sequitur mutationem consuetudium lectorum. Mirum ninja est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem ninja ipsum modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in ninja futurum.
+### Product Story
 
-### Lorem ninja ipsum dolor
+---
 
-Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut ninja wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ninja lobortis nisl ut aliquip ex ea commodo consequat. Duis ninja autem vel eum iriure dolor in hendrerit in vulputate ninja velit esse molestie consequat, vel illum dolore eu feugiat nulla ninja facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam ninja ipsum liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi ninja non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes ninja demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas ninja est etiam processus dynamicus, qui ninja sequitur mutationem consuetudium lectorum. Mirum ninja est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem ninja ipsum modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in ninja futurum.
+Our Ginger Product consist of three type of gingers which includes, white ginger, yellow ginger, and red ginger.Ginger it self are rhizomes which is often consumed by the general population because of the taste and aroma enhancing effect for food and also for medicinal purposes, ginger is included in many tradtional medicine recipe. Our ginger is sourced only from the best ginger plantation in Java, which ensure freshness and health benefits that comes along with it
+\
+&nbsp;
+\
+&nbsp;
+
+### Product Description
+
+---
+
+|             |                                                                       |
+| :---------- | :-------------------------------------------------------------------- |
+| **Color**   | light brown (white ginger), Pinkish red (red ginger), Yellow (yellow) |
+| **Shape**   | whole ginger                                                          |
+| **Style**   | Fresh                                                                 |
+| **Origin**  | Java, indonesia                                                       |
+| **Package** | gunny sack/ jute bag                                                  |

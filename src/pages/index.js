@@ -4,8 +4,6 @@ import Layout from "../components/Layout"
 import Img from "gatsby-image"
 import Button from "../components/Button"
 import ProductCard from "../components/ProductCard"
-import AboutUs from "../components/AboutUs"
-import About from "./about"
 
 export default function Home({ data }) {
   const products = data.products.nodes

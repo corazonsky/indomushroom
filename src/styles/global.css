@@ -20,3 +20,40 @@ body {
 p {
   line-height: 1.5em;
 }
+
+.details h2 {
+  font-size: 3.5em;
+  padding-top: 80px;
+}
+.details h3 {
+  font-size: 2em;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.details p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.details ul {
+  padding-top: 20px;
+  list-style-type: circle;
+  padding-bottom: 20px;
+}
+
+.details table {
+  margin-top: 20px;
+}
+
+.details td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.details tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.details tr:hover {
+  background-color: #ddd;
+}
