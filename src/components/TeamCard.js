@@ -11,13 +11,13 @@ export default function TeamCard(props) {
           {props.children}
         </div>
         <div class="relative text-black px-6 pb-6 mt-6">
-          <div className="flex justify-start align-middle">
-            <FontAwesomeIcon icon={faWhatsapp} className="mt-1 w-4 h-4" />
-            <h3 className="ml-2">{props.phone}</h3>
+          <div className="flex justify-start py-2">
+            <FontAwesomeIcon icon={faWhatsapp} className="md:mt-1 w-4 h-4" />
+            <h3 className="ml-2 text-xs md:text-base">{props.phone}</h3>
           </div>
-          <div className="flex justify-start align-middle">
-            <FontAwesomeIcon icon={faLinkedin} className="mt-1 w-4 h-4" />
-            <h3 className="ml-2">{props.name}</h3>
+          <div className="flex justify-start py-2">
+            <FontAwesomeIcon icon={faLinkedin} className="md:mt-1 w-4 h-4" />
+            <h3 className="ml-2 text-xs md:text-base">{props.name}</h3>
           </div>
         </div>
       </div>

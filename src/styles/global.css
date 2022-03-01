@@ -15,7 +15,9 @@ body {
 }
 body {
   background: radial-gradient(at top left, #f0bb28 0%, #b74848 100%);
-  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto 100%;
+  background-position: center;
 }
 p {
   line-height: 1.5em;
@@ -46,4 +48,16 @@ p {
 
 .details tr:hover {
   background-color: #ddd;
+}
+
+.details h2 {
+  font-size: 3.5em;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.details h3 {
+  font-size: 2em;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }

@@ -12,9 +12,6 @@ export default function ProductCard(props) {
           <span class="block font-semibold text-xl">{props.name}</span>
         </div>
         <span class="block opacity-75">{props.origin}</span>
-        <div class="justify-end flex inline-block align-middle block md:hidden mt-10">
-          <b class="text-xs">Click to see products</b>
-        </div>
       </div>
     </div>
   )

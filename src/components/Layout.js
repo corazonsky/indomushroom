@@ -11,8 +11,8 @@ config.autoAddCss = false
 export default function Layout({ children }) {
   return (
     <div className="layout flex flex-col h-screen">
-      <Navbar className="fixed top-0 inset-x-0 z-50" />
-      <div className="content mb-auto">{children}</div>
+      <Navbar />
+      <div className="py-10">{children}</div>
       <FloatingActionButton />
       <Footer />
     </div>

@@ -5,6 +5,7 @@ import Img from "gatsby-image"
 import Button from "../components/Button"
 import ProductCard from "../components/ProductCard"
 import TeamCard from "../components/TeamCard"
+import ValueCard from "../components/ValueCard"
 
 export default function Home({ data }) {
   const products = data.products.nodes
@@ -89,10 +90,28 @@ export default function Home({ data }) {
           <p class="py-4 max-w-screen-md mx-auto text-center text-gray-500 md:text-lg">
             Our company is open to both business opportunities from local and
             international. And we would to hear from you our dear customers.
-            Company Vision Becoming a one stop solution for the customers’ spice
-            needs Company Mission Only providing the best both and quality and
-            price, keeping in touch with our customers to build a reliable and
-            trustworthy communication network
+            <h2
+              class=" pt-8 pb-2
+          text-xl
+          font-bold
+          text-center text-gray-800
+          lg:text-2xl"
+            >
+              Company Vision
+            </h2>
+            Becoming a one stop solution for the customers’ spice needs{" "}
+            <h2
+              class=" pt-8 pb-2
+          text-xl
+          font-bold
+          text-center text-gray-800
+          lg:text-2xl"
+            >
+              Company Mission
+            </h2>
+            Only providing the best both and quality and price, keeping in touch
+            with our customers to build a reliable and trustworthy communication
+            network
           </p>
           <div
             class="relative flex py-5 items-center mt-20
@@ -115,12 +134,12 @@ export default function Home({ data }) {
           </div>
           <div class="px-10 pb-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-14">
             {values.map(value => (
-              <ProductCard>
+              <ValueCard>
                 <Img
                   fluid={value.frontmatter.thumb.childImageSharp.fluid}
                   className="object-fill h-full w-full"
                 />
-              </ProductCard>
+              </ValueCard>
             ))}
           </div>
           <div
